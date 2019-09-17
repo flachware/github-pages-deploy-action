@@ -1,0 +1,6 @@
+name: Deploy to GitHub Pages
+Description: Builds a project and deploys it to GitHub Pages.
+author: Flachware <mail@flachware.com>
+runs:
+  using: docker
+  image: Dockerfile
